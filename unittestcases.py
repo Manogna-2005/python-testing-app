@@ -26,5 +26,11 @@ class MultiplyTestCase(unittest.TestCase):
 
       self.assertEqual(result, 0)
 
+  def test_5(self):
+
+      result = multiplication(-3,0)
+
+      self.assertEqual(result, 0)
+
   if __name__ == '__main__':
       unittest.main()
