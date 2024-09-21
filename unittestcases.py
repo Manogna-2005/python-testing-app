@@ -28,7 +28,7 @@ class MultiplyTestCase(unittest.TestCase):
 
   def test_5(self):
 
-      result = multiplication(-3,0)
+      result = multiplication(-4,0)
 
       self.assertEqual(result, 0)
 
